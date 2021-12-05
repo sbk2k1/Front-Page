@@ -1,0 +1,12 @@
+.parent {
+  height: 100vh;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent img {
+  width: 85%;
+  display: block;
+}

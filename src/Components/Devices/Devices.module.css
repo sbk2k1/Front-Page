@@ -1,0 +1,95 @@
+.parent {
+  height: 95vh;
+  width: 98vw;
+  background: rgb(184, 184, 184);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.left {
+  margin-left: 45px;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 60%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 80%;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200%;
+}
+
+.dev {
+  width: 80%;
+  display: block;
+}
+
+@media screen and (max-width: 846px) {
+  .content {
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .left {
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+  }
+
+  h1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+  }
+
+  .icons {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    justify-items: center;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .icon {
+    width: 100px;
+  }
+}

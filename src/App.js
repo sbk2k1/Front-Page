@@ -1,20 +1,18 @@
 import './App.css';
-import FirstCard from './Components/FirstCard/FirstCard';
-import FourthCard from './Components/FourthCard/FourthCard';
-import SecondCard from './Components/SecondCard/SecondCard';
-import ThirdCard from './Components/ThirdCard/ThirdCard';
-import Member from './Components/Member/Member';
-import FifthCard from './Components/FifthCard/FifthCard';
-import FooterCard from './Components/FooterCard/FooterCard';
+import Airback from './Components/airback/Airback';
+import Cloud from './Components/Cloud/Cloud';
+import Desc from './Components/Desc/Desc';
+import Devices from './Components/Devices/Devices';
+import Navbar from './Components/Navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      {/* <FirstCard />
-      <ThirdCard />
-      <FourthCard />
-      <FifthCard /> */}
-      <FooterCard />
+      {/* <Navbar /> */}
+      {/* <Airback /> */}
+      {/* <Cloud /> */}
+      {/* <Desc /> */}
+      <Devices />
     </div>
   );
 }
