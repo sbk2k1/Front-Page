@@ -1,0 +1,38 @@
+.parent {
+  width: 98vw;
+  background: rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6rem;
+}
+
+p {
+  margin-top: 7rem;
+  color: white;
+  text-align: center;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.members {
+  margin-top: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 10px;
+  padding-bottom: 4rem;
+}
+
+@media screen and (max-width: 708px) {
+  img {
+    width: 50%;
+  }
+}

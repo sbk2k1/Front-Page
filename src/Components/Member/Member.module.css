@@ -1,0 +1,64 @@
+.memberCard {
+  background-color: rgb(150, 52, 52);
+  height: 600px;
+  width: 340px;
+  overflow: hidden;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  align-self: flex-end;
+  height: 175px;
+  width: 300px;
+  background: rgb(255, 255, 255);
+  border-radius: 35px;
+  margin-bottom: 30px;
+  transition: all ease 1s;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  transform: translate(-5%, 125%);
+}
+
+.name {
+  font-size: 150%;
+  margin-top: 20px;
+  transform: translate(4%, -330%);
+}
+
+.desc {
+  color: black;
+  margin-top: 0;
+  text-align: left;
+  width: 100%;
+  margin-top: 20px;
+  transform: translate(4%, -430%);
+}
+
+.mail {
+  color: rgb(255, 255, 255);
+  margin-top: 0;
+  text-align: left;
+  width: 100%;
+  font-size: 90%;
+  margin-top: 10px;
+  transition: 2s;
+  transform: translate(4%, -530%);
+}
+
+.info:hover {
+  height: 180px;
+}
+
+.info:hover .mail {
+  color: black;
+}
+
+.airImage {
+  width: 10%;
+  transform: translate(-390%, -175%);
+}
