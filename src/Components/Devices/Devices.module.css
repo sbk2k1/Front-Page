@@ -18,22 +18,27 @@
   margin-bottom: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  height: 60%;
+  justify-content: space-between;
+  height: 50%;
+  align-items: flex-start;
 }
 
-h1 {
+.head1 {
   font-size: 3rem;
+  margin: 0;
 }
 
-p {
+.para1 {
   font-size: 1.2rem;
+  text-align: left;
+  width: 90%;
+  margin: 0;
 }
 
 .icons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  width: 80%;
+  width: 70%;
 }
 
 .image {
@@ -67,13 +72,13 @@ p {
     margin: 0;
   }
 
-  h1 {
+  .head1 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
   }
 
-  p {
+  .para1 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;

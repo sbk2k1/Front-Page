@@ -7,4 +7,5 @@
   width: 85vw;
   background: grey;
   border-radius: 10px;
+  z-index: 999;
 }

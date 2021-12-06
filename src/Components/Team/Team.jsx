@@ -6,7 +6,7 @@ import styles from './Team.module.css'
 const Team = () => {
     return (
         <div className={styles.parent}>
-            <img src={team} alt="team" />
+            <img src={team} alt="team" className={styles.airTeam}/>
             <p>The Air Team shares a common Vision, a platform for all, for all the Companies and Businesses out there to reach their ultimate Potential by helping them, by bringing their products in front of the whole World!</p>
             <div>
                 <div className={styles.members}>

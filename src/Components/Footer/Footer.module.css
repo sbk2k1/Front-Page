@@ -17,6 +17,7 @@
   background: #d2b447;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .logoimg {
@@ -107,6 +108,7 @@ li {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     margin-bottom: 45px;
+    padding-top: 15px;
   }
 
   .contact {

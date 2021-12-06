@@ -11,13 +11,12 @@ import Team from './Components/Team/Team';
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
-      {/* <Airback /> */}
-      {/* <Cloud /> */}
-      {/* <Desc /> */}
-      {/* <Devices /> */}
-      {/* <Member /> */}
-      {/* <Team /> */}
+      <Navbar />
+      <Airback />
+      <Desc />
+      <Cloud />
+      <Devices />
+      <Team /> 
       <Footer />
     </div>
   );

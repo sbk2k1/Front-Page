@@ -6,7 +6,7 @@ const Member = (props) => {
     return (
         <div className={styles.memberCard}>
             <div className={styles.info}>
-                <ul>
+                <ul className={styles.text}>
                     <li className={styles.air}><img src={air} alt="air" className={styles.airImage}/></li>
                     <li><h2 className={styles.name}>{props.name}</h2></li>
                     <li><p className={styles.desc}>{props.desc}</p></li>

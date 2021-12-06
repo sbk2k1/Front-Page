@@ -5,12 +5,12 @@
   margin-right: auto;
 }
 
-img {
+.airTeam {
   width: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 6rem;
+  padding-top: 7rem;
 }
 
 p {
@@ -20,6 +20,7 @@ p {
   width: 65%;
   margin-left: auto;
   margin-right: auto;
+  font-size: 1.2rem;
 }
 
 .members {
@@ -32,7 +33,7 @@ p {
 }
 
 @media screen and (max-width: 708px) {
-  img {
-    width: 50%;
+  .airTeam {
+    width: 30%;
   }
 }

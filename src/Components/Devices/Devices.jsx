@@ -11,8 +11,8 @@ const Devices = () => {
         <div className={styles.parent}>
             <div className={styles.content}>
                 <div className={styles.left}>
-                        <h1>Will be Available <br/>Soon.</h1>
-                        <p>Air will be Everywhere. The Air app will be available soon in Apps Store as well as in Google Play Store. And also soon you can visit the Web App in almost every web Browsers out there in any device .</p>
+                        <h1 className={styles.head1}>Will be Available <br/>Soon.</h1>
+                        <p className={styles.para1}>Air will be Everywhere. The Air app will be available soon in Apps Store as well as in Google Play Store. And also soon you can visit the Web App in almost every web Browsers out there in any device .</p>
                     <div className={styles.icons}>
                         <img src={icon1} alt="" />
                         <img src={icon2} alt="" />
