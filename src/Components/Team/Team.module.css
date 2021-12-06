@@ -1,12 +1,12 @@
 .parent {
   width: 98vw;
-  background: rgb(0, 0, 0);
+  background: #282828;
   margin-left: auto;
   margin-right: auto;
 }
 
 .airTeam {
-  width: 30%;
+  width: 15%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -14,22 +14,25 @@
 }
 
 p {
-  margin-top: 7rem;
+  margin-top: 3rem;
   color: white;
   text-align: center;
-  width: 65%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  line-height: 25px;
 }
 
 .members {
-  margin-top: 8rem;
+  margin-top: 5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  row-gap: 10px;
   padding-bottom: 4rem;
+  width: 82vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 708px) {

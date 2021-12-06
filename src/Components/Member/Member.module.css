@@ -1,21 +1,25 @@
 .memberCard {
   background-color: rgb(255, 255, 255);
   height: 600px;
-  width: 340px;
+  width: 370px;
   overflow: hidden;
   border-radius: 20px;
   display: flex;
   justify-content: center;
+  background-image: url("../../assets/me.png");
 }
 
 .info {
   align-self: flex-end;
   height: 175px;
-  width: 300px;
-  background: #97a787;
+  width: 355px;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  background: rgba(12, 245, 233, 0.6);
+  background: linear-gradient();
   border-radius: 35px;
-  margin-bottom: 21px;
-  transition: all ease 1s;
+  margin-bottom: 15px;
+  transition: all ease 0.5s;
 }
 
 .text {
@@ -46,7 +50,9 @@ li {
   text-align: left;
   width: 100%;
   font-size: 90%;
-  transition: 2s;
+  transition: 0.5s;
+  position: relative;
+  top: -13px;
 }
 
 .info:hover {

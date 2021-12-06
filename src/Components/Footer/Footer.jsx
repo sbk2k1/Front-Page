@@ -12,10 +12,13 @@ const Footer = () => {
                     <img src={air} alt="" className={styles.logoimg} />
                 </div>
                 <div className={styles.socials}>
-                    <p>
-                        Our social media accounts will be<br /> live soon.
-                    </p>
-                    <img src={socials} alt="" className={styles.icons} />
+                    <div className={styles.flexSocials}>
+                        <p>
+                            Our social media accounts will be<br /> live soon.
+                        </p>
+                        <img src={socials} alt="" className={styles.icons} />
+                    </div>
+
                 </div>
                 <div className={styles.links}>
                     <div>

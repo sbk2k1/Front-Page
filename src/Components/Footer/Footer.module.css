@@ -30,7 +30,15 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.flexSocials {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 55%;
 }
 
 .socials p {
@@ -42,6 +50,7 @@
   padding: 0;
   display: block;
   width: 55%;
+  display: block;
 }
 
 .links {

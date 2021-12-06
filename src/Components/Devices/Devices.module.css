@@ -20,27 +20,33 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 50%;
+  height: 48%;
   align-items: flex-start;
 }
 
 .head1 {
   font-size: 3rem;
   margin: 0;
+  color: #000000;
+  font-family: titleS;
+  font-weight: lighter;
 }
 
 .para1 {
-  font-size: 1.2rem;
+  font-size: 0.99rem;
   text-align: left;
-  width: 90%;
+  width: 97%;
+  line-height: 25px;
   margin: 0;
-  color: black;
+  color: #707070;
+  margin-bottom: 20px;
 }
 
 .icons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  width: 70%;
+  width: 65%;
+  transform: translateY(10px);
 }
 
 .image {
