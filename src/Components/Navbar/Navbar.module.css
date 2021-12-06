@@ -5,7 +5,126 @@
   transform: translate(-50%, 0);
   height: 5vh;
   width: 85vw;
-  background: grey;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  background-color: rgba(226, 226, 226, 0.5);
   border-radius: 10px;
-  z-index: 999;
+  z-index: 9999;
+  /* yes */
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+.text {
+  margin: 0;
+  width: fit-content;
+  font-size: 0.8rem;
+  color: black;
+}
+
+.icon {
+  display: block;
+  height: fit-content;
+  width: fit-content;
+}
+
+@media screen and (max-width: 1330px) {
+  .parent {
+    height: 7vh;
+  }
+  .flex {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .parent {
+    height: 8vh;
+  }
+  .flex {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .parent {
+    height: 9vh;
+  }
+  .flex {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 777px) {
+  .flex {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 707px) {
+  .flex {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .flex {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .flex {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .flex {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  .text {
+    display: none;
+  }
+
+  .parent {
+    width: 60px;
+  }
+
+  .flex {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .smallerParent {
+    z-index: 9999;
+    display: block;
+  }
+
+  .b1 {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    margin-top: 15%;
+  }
+}
+
+.smallerParent {
+  z-index: 9999;
+  display: none;
 }

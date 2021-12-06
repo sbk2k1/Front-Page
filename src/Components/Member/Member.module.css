@@ -1,5 +1,5 @@
 .memberCard {
-  background-color: rgb(150, 52, 52);
+  background-color: rgb(255, 255, 255);
   height: 600px;
   width: 340px;
   overflow: hidden;
@@ -12,9 +12,9 @@
   align-self: flex-end;
   height: 175px;
   width: 300px;
-  background: rgb(255, 255, 255);
+  background: #97a787;
   border-radius: 35px;
-  margin-bottom: 30px;
+  margin-bottom: 21px;
   transition: all ease 1s;
 }
 
@@ -41,7 +41,7 @@ li {
 }
 
 .mail {
-  color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0);
   margin-top: 0;
   text-align: left;
   width: 100%;
