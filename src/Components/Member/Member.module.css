@@ -6,7 +6,7 @@
   border-radius: 20px;
   display: flex;
   justify-content: center;
-  background-image: url("../../assets/me.png");
+  background-position: center;
 }
 
 .info {
@@ -15,7 +15,7 @@
   width: 355px;
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
-  background: rgba(12, 245, 233, 0.6);
+  background: rgba(255, 255, 255, 0.6);
   background: linear-gradient();
   border-radius: 35px;
   margin-bottom: 15px;
@@ -35,21 +35,22 @@ li {
 
 .name {
   font-size: 150%;
+  color: #424242;
 }
 
 .desc {
-  color: black;
+  color: #424242;
   margin-top: 0;
   text-align: left;
   width: 100%;
 }
 
 .mail {
-  color: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 0);
   margin-top: 0;
   text-align: left;
   width: 100%;
-  font-size: 90%;
+  font-size: 95%;
   transition: 0.5s;
   position: relative;
   top: -13px;
@@ -60,7 +61,7 @@ li {
 }
 
 .info:hover .mail {
-  color: black;
+  color: #424242;
 }
 
 .airImage {

@@ -4,7 +4,7 @@ import air from '../../assets/Group 18.png'
 
 const Member = (props) => {
     return (
-        <div className={styles.memberCard}>
+        <div className={styles.memberCard} style={{backgroundImage: `url(${props.link})`}} >
             <div className={styles.info}>
                 <ul className={styles.text}>
                     <li className={styles.air}><img src={air} alt="air" className={styles.airImage}/></li>
