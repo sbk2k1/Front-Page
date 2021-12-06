@@ -4,7 +4,7 @@ import team from '../../assets/airTeam.png'
 import styles from './Team.module.css'
 import IS from '../../assets/ISpic.png'
 import SB from '../../assets/SBpic.png'
-import AD from '../../assets/AD.png'
+import AD from '../../assets/AD .png'
 
 const Team = () => {
     return (
