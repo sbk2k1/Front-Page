@@ -13,14 +13,14 @@
 
 .info {
   align-self: flex-end;
-  height: 175px;
-  width: 340px;
+  height: 170px;
+  width: 355px;
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
   background: rgba(255, 255, 255, 0.6);
   background: linear-gradient();
-  border-radius: 35px;
-  margin-bottom: 15px;
+  border-radius: 20px;
+  margin-bottom: 8px;
   transition: all ease 0.5s;
 }
 
@@ -58,11 +58,11 @@ li {
   top: -13px;
 }
 
-.info:hover {
+.memberCard:hover .info {
   height: 180px;
 }
 
-.info:hover .mail {
+.memberCard:hover .mail {
   color: #424242;
 }
 
@@ -91,9 +91,9 @@ li {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  box-shadow: #ae9436 0px 25px 25px, rgba(250, 154, 154, 0.12) 0px -12px 30px,
-    #b99e3c 0px 4px 6px, rgba(255, 128, 128, 0.17) 0px 12px 13px,
-    #ad9643 0px -3px 5px;
+  box-shadow: #727272 0px 15px 25px, rgba(250, 154, 154, 0.12) 0px -12px 30px,
+    #4d4d4d 0px 4px 6px, rgba(255, 128, 128, 0.17) 0px 12px 13px,
+    #707070 0px -3px 5px;
 }
 
 @keyframes hover {
