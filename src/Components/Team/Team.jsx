@@ -10,10 +10,10 @@ const Team = () => {
     return (
         <div className={styles.parent}>
             <img src={team} alt="team" className={styles.airTeam}/>
-            <p>The Air Team shares a common Vision, a platform for all, for all the Companies and Businesses out there to reach their ultimate Potential by helping them, by bringing their products in front of the whole World!</p>
+            <p>The <b>Air Team</b> shares a common <b>Vision</b>, a platform for all the <b>Companies</b> and <b>Businesses</b> out there to reach their ultimate <b>Potential</b> by helping them to bring their products in front of the whole <b>World!</b></p>
             <div>
                 <div className={styles.members}>
-                    <Member name='Arpas Das' desc='Founder' link={AD} mail='maildasarpan@gmail.com'/>
+                    <Member name='Arpan Das' desc='Founder' link={AD} mail='maildasarpan@gmail.com'/>
                     <Member name='Ishika Saha' desc='Co-Founder' link={IS} mail='mailairofficial@gmail.com'/>
                     <Member name='Saptarshi Bhattacharya' desc='Co-Founder' link={SB} mail='bhattacharyasaptarshi2001@gmail.com'/>
                 </div>
