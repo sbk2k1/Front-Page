@@ -13,7 +13,7 @@ const Team = () => {
             <p>The Air Team shares a common Vision, a platform for all, for all the Companies and Businesses out there to reach their ultimate Potential by helping them, by bringing their products in front of the whole World!</p>
             <div>
                 <div className={styles.members}>
-                    <Member name='Arpas Das' desc='Founder' link={AD} mail='mailairofficial@gmail.com'/>
+                    <Member name='Arpas Das' desc='Founder' link={AD} mail='maildasarpan@gmail.com'/>
                     <Member name='Ishika Saha' desc='Co-Founder' link={IS} mail='mailairofficial@gmail.com'/>
                     <Member name='Saptarshi Bhattacharya' desc='Co-Founder' link={SB} mail='bhattacharyasaptarshi2001@gmail.com'/>
                 </div>
