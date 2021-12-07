@@ -1,4 +1,4 @@
-.parent {
+.parent1 {
   position: fixed;
   top: 0;
   margin-top: 15px;
@@ -26,7 +26,7 @@
   transform: translateX(-1%);
 }
 
-.text {
+.textNav {
   margin: 0;
   width: fit-content;
   font-size: 0.8rem;
@@ -39,8 +39,13 @@
   width: 4.5%;
 }
 
+.b1 {
+  z-index: 9999;
+  display: none;
+}
+
 @media screen and (max-width: 1330px) {
-  .parent {
+  .parent1 {
     height: 7vh;
   }
   .flex {
@@ -49,26 +54,20 @@
 }
 
 @media screen and (max-width: 1010px) {
-  .parent {
+  .parent1 {
     height: 8vh;
   }
   .flex {
-    width: 40%;
-  }
-}
-
-@media screen and (max-width: 890px) {
-  .parent {
-    height: 9vh;
-  }
-  .flex {
-    width: 45%;
-  }
-}
-
-@media screen and (max-width: 777px) {
-  .flex {
     width: 50%;
+  }
+}
+
+@media screen and (max-width: 803px) {
+  .textNav {
+    font-size: 1rem;
+  }
+  .textNav {
+    font-size: 0.8rem;
   }
 }
 
@@ -92,17 +91,27 @@
 
 @media screen and (max-width: 465px) {
   .flex {
-    width: 85%;
+    width: 87%;
+  }
+  .textNav {
+    font-size: 0.7rem;
   }
 }
 
-@media screen and (max-width: 388px) {
-  .text {
+@media screen and (max-width: 400px) {
+  .textNav {
     display: none;
   }
 
-  .parent {
+  .icon {
+    display: none;
+  }
+
+  .parent1 {
     width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
   }
 
   .flex {
@@ -110,22 +119,17 @@
     align-items: center;
   }
 
-  .smallerParent {
-    z-index: 9999;
-    display: block;
-  }
-
   .b1 {
     border: none;
     background: none;
     cursor: pointer;
-    margin: 0;
-    padding: 0;
-    margin-top: 15%;
+    display: block;
+    margin-right: 12px;
+    margin-top: 5px;
   }
-}
 
-.smallerParent {
-  z-index: 9999;
-  display: none;
+  .airBtn {
+    width: 35px;
+    display: block;
+  }
 }
