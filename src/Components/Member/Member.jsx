@@ -10,7 +10,7 @@ const Member = (props) => {
                     <li className={styles.air}><img src={air} alt="air" className={styles.airImage}/></li>
                     <li><h2 className={styles.name}>{props.name}</h2></li>
                     <li><p className={styles.desc}>{props.desc}</p></li>
-                    <li><p className={styles.mail}>abcd@gmail.com</p></li>
+                    <li><p className={styles.mail}>{props.mail}</p></li>
                 </ul>
             </div>
         </div>

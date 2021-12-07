@@ -41,7 +41,7 @@ const Footer = () => {
                     </div>
                     <div className={styles.contact}>
                         <li className={styles.titlelist}>Contact Us</li>
-                        <li>abc@gmail.com</li>
+                        <li>mailairofficial@gmail.com</li>
                     </div>
                 </div>
             </div>
