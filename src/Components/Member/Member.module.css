@@ -52,7 +52,7 @@ li {
   margin-top: 0;
   text-align: left;
   width: 100%;
-  font-size: 95%;
+  font-size: 95% !important;
   transition: 0.5s;
   position: relative;
   top: -13px;

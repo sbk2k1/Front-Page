@@ -44,5 +44,6 @@
   .flex p {
     font-size: 130%;
     color: #707070;
+    line-height: 2rem;
   }
 }

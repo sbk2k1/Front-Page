@@ -76,7 +76,7 @@ li {
 
 @media screen and (min-width: 1600px) {
   .list {
-    font-size: 140%;
+    font-size: 130%;
   }
 
   .titlelist {
@@ -85,7 +85,7 @@ li {
 
   .socials p {
     width: 75%;
-    font-size: 150%;
+    font-size: 140%;
   }
 }
 

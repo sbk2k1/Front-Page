@@ -89,4 +89,8 @@
     font-size: 1.2rem;
     line-height: 2rem;
   }
+
+  .flex img {
+    width: 19%;
+  }
 }
