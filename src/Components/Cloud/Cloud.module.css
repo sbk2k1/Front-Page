@@ -83,3 +83,10 @@
     font-size: 0.8rem;
   }
 } */
+
+@media screen and (min-width: 1600px) {
+  .flex p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+}

@@ -57,6 +57,13 @@
   width: 200%;
 }
 
+@media screen and (min-width: 1600px) {
+  .para1 {
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+  }
+}
+
 .dev {
   width: 80%;
   display: block;

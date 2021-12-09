@@ -74,6 +74,21 @@ li {
   font-size: 80%;
 }
 
+@media screen and (min-width: 1600px) {
+  .list {
+    font-size: 140%;
+  }
+
+  .titlelist {
+    font-size: 190%;
+  }
+
+  .socials p {
+    width: 75%;
+    font-size: 150%;
+  }
+}
+
 @media screen and (max-width: 763px) {
   .wrap {
     grid-template-columns: 1fr 2fr;

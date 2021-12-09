@@ -24,24 +24,24 @@ const Footer = () => {
                     <div>
                         <ul>
                             <li className={styles.titlelist}>Platform</li>
-                            <li>Android</li>
-                            <li>iOS</li>
-                            <li>Chrome</li>
-                            <li>Safari</li>
-                            <li>Microsoft Edge</li>
+                            <li className={styles.list}>Android</li>
+                            <li className={styles.list}>iOS</li>
+                            <li className={styles.list}>Chrome</li>
+                            <li className={styles.list}>Safari</li>
+                            <li className={styles.list}>Microsoft Edge</li>
                         </ul>
                     </div>
                     <div>
                         <ul>
                             <li className={styles.titlelist}>Team</li>
-                            <li>Arpan Das</li>
-                            <li>Ishika Saha</li>
-                            <li>Saptarshi Bhattacharya</li>
+                            <li className={styles.list}>Arpan Das</li>
+                            <li className={styles.list}>Ishika Saha</li>
+                            <li className={styles.list}>Saptarshi Bhattacharya</li>
                         </ul>
                     </div>
                     <div className={styles.contact}>
                         <li className={styles.titlelist}>Contact Us</li>
-                        <li>mailairofficial@gmail.com</li>
+                        <li className={styles.list}>mailairofficial@gmail.com</li>
                     </div>
                 </div>
             </div>
